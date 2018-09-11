@@ -16,9 +16,10 @@
 				'Тень горы',
 				'Атлант расправил плечи'
 );
-		
+	echo "<ol>";
 	for  ( $i = 0; $i < count($books); $i++ ){
-		echo "<ol>" . $books[$i] . "</ol>";
+		echo "<li>" . $books[$i] . "</li>";
 	}
+	echo "</ol>";
 		
 ?>
